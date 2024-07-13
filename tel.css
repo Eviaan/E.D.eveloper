@@ -1,0 +1,158 @@
+@media (max-width: 500px) {
+
+    header {
+
+        & h1 {
+            font-size: 2.5em;
+            margin-bottom: -6.5vh;
+            margin-top: -4vh;
+
+            
+        }
+
+        & #contact-button {
+            transform: translateY(280%);
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        & nav ul li a {
+            padding: 10px;
+            }
+            
+            @media (max-height: 850px) {
+                height: 20vh;
+
+                & h1 {
+                    font-size: 2em;
+                    margin-bottom: -8vh;
+                    margin-top: -6vh;
+                }
+
+                & #contact-button {
+                    transform: translateY(250%);
+                }
+            }
+
+        }
+
+
+    
+    #presentation {
+        top: 15vh;
+
+        & h2 {
+            font-size: 2em;
+        }
+
+        & img {
+            width: 80%;
+        }
+
+        & h5 {
+            width: 70%;
+        }
+    }
+
+    main {
+    width: 100%;
+    }
+
+    #competences {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-competences {
+        width: 70vw;
+    }
+
+    #activites {
+        margin-top: -20vh;
+
+        & .card-l {
+            width: 60vw;
+            scale: 1.1;
+            left: 10vw;
+            margin-top: 16vh;
+        }
+
+        & .card-r {
+            width: 60vw;
+            scale: 1.1;
+            right: -18vw;
+            margin-top: 16vh;
+        }
+
+        & #barre  {
+            @media (max-height: 850px) {
+                height: 190vh;
+
+                @media (max-height: 780px) {
+                    height: 200vh;
+
+                    @media (max-height: 730px) {
+                        height: 210vh;
+
+                        @media (max-height: 680px) {
+                            height: 220vh;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    #projets {
+        margin-bottom: 20vh;
+    }
+
+    #caroussel {
+        width: 80vw;
+        height: 20vh;
+        align-items: center;
+        display: flex;
+
+        & #container {
+            display: flex;
+        }
+        
+        
+    }
+
+    .project-card-container {
+        width: 80vw;
+    }
+
+    .project-card {
+        width: 80vw;
+        
+    }
+
+    .switch {
+        margin-top: 30vh;
+        
+    }
+
+    #l {
+        margin-right: 15vw;
+    }
+
+    #r {
+        margin-left: 15vw;
+    }
+
+    #contact-Form {
+        margin-bottom: 28vh;
+
+        @media (max-height: 800px) {
+            margin-bottom: 23vh;
+        }
+    }
+    
+}
+
