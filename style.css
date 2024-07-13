@@ -5,6 +5,10 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(90deg, rgb(247, 83, 83), 40%, rgb(239, 29, 29)) ;
     
@@ -383,8 +387,8 @@ main section h2 {
 
 
                     #caroussel {
-                        width: 600px;
-                        height: 200px;
+                        width: 47vw;
+                        height: 33.5vh;
                         position: relative;
                         overflow: hidden;
                         border-radius: 10px;
@@ -392,8 +396,8 @@ main section h2 {
                     }
                     
                     #container {
-                        width: 600px;
-                        height: 200px;
+                        width: 47vw;
+                        height: 33.5vh;
                     
                     }
                     
@@ -402,8 +406,8 @@ main section h2 {
                     
                     
                     .project-card-container {
-                        width: 600px;
-                        height: 200px;
+                        width: 47vw;
+                        height: 33.5vh;
                         display: inline-flex;
                         justify-content: center;
                         align-items: center;
