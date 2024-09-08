@@ -6,7 +6,7 @@
                 
                     
                 document.body.onload= function() {
-                    nbr = 2;
+                    nbr = 3;
                     p = 0;
                     container = document.getElementById("container");
                     l = document.getElementById("l");
